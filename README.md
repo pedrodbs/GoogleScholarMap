@@ -33,7 +33,7 @@ Google Maps.
 To generate detailed information about the institutions and countries citing each publication, run:
 
 ```shell
-python -m scholar_map.get_scholar -i SCHOLAR_ID -o OUTPUT_DIR
+python -m scholar_map.get_impact_chart -i SCHOLAR_ID -o OUTPUT_DIR
 ```
 
 and then check the file generated in `OUTPUT_DIR` named `impact_chart.csv`. 
